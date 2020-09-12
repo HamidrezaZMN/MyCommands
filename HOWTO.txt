@@ -1,0 +1,24 @@
+##### WINDOWS #####
+-- add folder to path
+press windows key and in the search bar, search for:
+"edit the system environment variables"
+open it. in the "advanced" tab, click on the "environment variables" button.
+in the "user variables for YOUR_USERNAME" section, click on "path" then press "edit" button.
+now add a new row (by pressing "new") and type the directory of the folder you want and press "ok"
+-- add ".PY" to system extensions
+after you went to "environment variables" windows, in the buttom section ("system variables"), click on PATHEXT,
+click "edit" button and at the begining of the line, type ".PY;"
+caution: don't forget the semicolon
+
+
+##### Linux #####
+-- add folder to path
+open terminal
+type:
+$ vim ./bashrc
+press "i" key to start "insert mode". at the end of the file, press some enters,
+then type:
+
+export PATH="$PATH:YOUR_FOLDER"
+
+and instead of "YOUR_FOLDER" type the directory of your folder

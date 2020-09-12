@@ -1,0 +1,9 @@
+allcmds :: shows all my cmds
+count-lines :: counts the number of lines of code in one directory
+dlfile :: downloads file from a certain url
+ecd :: easy cd. easily navigate
+end :: end a running task
+mp :: makes project
+nett :: connect or disconnect to network
+op :: opens project
+runp :: runs java project
